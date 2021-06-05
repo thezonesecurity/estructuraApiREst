@@ -1,0 +1,26 @@
+{
+  "name": "apiseminario",
+  "version": "1.0.0",
+  "description": "Api para seminario",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node dist/server.js"
+  },
+  "keywords": [
+    "Api",
+    "Node",
+    "Rest"
+  ],
+  "author": "Ditmar",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.11",
+    "@types/sha1": "^1.1.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.8",
+    "sha1": "^1.1.1"
+  }
+}
